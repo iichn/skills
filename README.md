@@ -11,7 +11,7 @@
 | `roles/03-gemini-routine.md` | Инструкция для Routine (рутина в чате) |
 | `roles/04-agent-executor.md` | Инструкция для агента в IDE (копируется в проект) |
 | `roles/05-fallback-any-model.md` | Универсальная инструкция, если доступна одна модель |
-| `skeleton/` | Файлы, которые копируются в проект: PLAN, DECISIONS, ACCEPTANCE, шаблон ТЗ, prompt-файлы |
+| `skeleton/` | Файлы, которые копируются в проект: VISION, SCOPE, PLAN, DECISIONS, ACCEPTANCE, шаблон ТЗ, prompt-файлы |
 | `bootstrap.sh` | Раскладывает скелет и инструкции агента по проекту |
 
 ## Старт нового проекта
@@ -19,8 +19,8 @@
 ./bootstrap.sh /путь/к/проекту
 ```
 Затем:
-1. Заполнить `docs/PLAN.md` (цель, стек).
-2. Заполниьб блок «Проект» в `AGENTS.md` и `.github/copilot-instructions.md` (структура, команды сборки и тестов).
+1. Заполнить `docs/VISION.md` и `docs/SCOPE.md`.
+2. Заполнить блок «Проект» в `AGENTS.md` и `.github/copilot-instructions.md` (структура, команды сборки и тестов).
 3. Вставить `roles/02-claude-bridge.md` в инструкции проекта Bridge.
 4. Вставить `roles/03-gemini-routine.md` в Gem / сохранённую инструкцию Routine.
 5. Отправить Bridge цель, получить план, утвердить, выдать задачи.

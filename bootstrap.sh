@@ -24,5 +24,5 @@ copy_safe "$SRC/roles/04-agent-executor.md" "$DST/AGENTS.md"
 copy_safe "$SRC/roles/04-agent-executor.md" "$DST/.github/copilot-instructions.md"
 
 echo "Готово: $DST"
-echo "Дальше: заполни docs/PLAN.md и блок «Проект» в AGENTS.md и .github/copilot-instructions.md"
+echo "Дальше: заполни docs/VISION.md, docs/SCOPE.md, docs/PLAN.md и блок «Проект» в AGENTS.md и .github/copilot-instructions.md"
 echo "Затем вставь roles/02 в Bridge и roles/03 в Routine."
